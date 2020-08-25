@@ -58,7 +58,7 @@ gcloud auth application-default login
 
 ### Quota Project
 
-API calls to Google Cloud may be rate limited and has quotas. The quotas are typically tied to a Google Cloud Project.  When you are running the application locally, and using the Application Default Credentials, the requests needs to be associated with a project to account for usage quota. Typically, the Quota Project should be the same as the project that you are currently working with. In a larger organization, it's can be a Project that's used for development purposes and not the production project.
+API calls to Google Cloud may be rate limited and subject to quotas. The quotas are typically tied to a Google Cloud Project.  When you are running the application locally, and using the Application Default Credentials, the requests need to be associated with a project to account for usage quota. Typically, the Quota Project should be the same as the project that you are currently working with. In a larger organization, it's can be a Project that's used for development purposes and not the production project.
 
 When configuring the Application Default Credentials the first time, It will also configure a Quota Project to be the same as the default project you previously configured.
 
